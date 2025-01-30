@@ -1,0 +1,56 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+    @apply h-screen w-screen font-sans antialiased;
+}
+
+
+/*--------------------------------------------------------WelcomePage------------------------------------------------------------*/
+
+@keyframes slide-in-top {
+    from {
+        transform: translateY(-60vh);
+        color: gold;
+    }
+    to {
+        transform: translateY(0);
+        color: black;
+    }
+}
+
+.slide-in-top {
+    animation: slide-in-top 1.1s ease-in both;
+    font-size: 420%; /* Adjust this value to make the text larger */
+}
+
+/*--------------------------------------------------------SerialNumberPage------------------------------------------------------------*/
+.scanner-container {
+    position: absolute; /* Fixes the position relative to the viewport */
+    width: 100vw; /* Full viewport width */
+    height: 100vh; /* Full viewport height */
+    background: rgba(0, 0, 0, 0.7); /* Semi-transparent background */
+    display: flex;
+    flex-direction: column; /* Arrange children vertically */
+    align-items: center; /* Center align horizontally */
+    justify-content: center; /* Center align vertically */
+    z-index: 1000; /* Ensure it's above other content */
+}
+
+#reader {
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    color: gold;
+}
+
+.btn-close {
+    position: fixed; /* Fixes the position relative to the viewport */
+    background: red;
+    color: white;
+    padding: 2%;
+    border: 3px solid white;
+    border-radius: 8px;
+    cursor: pointer;
+    z-index: 1100; /* Ensure button is above the scanner */
+}
