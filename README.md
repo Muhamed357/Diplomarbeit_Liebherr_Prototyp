@@ -1,5 +1,10 @@
 # Projekt-Dokumentation
 
+## Software-Architektur
+Hier ist eine Übersicht der Architektur der Anwendung:
+![Software-Architektur](images/software_architektur.jpg)
+
+
 ## Frontend
 
 ### LoginForm.js
