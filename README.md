@@ -1,7 +1,3 @@
-Hier ist deine Projekt-Dokumentation im gewünschten Format (mit Kursiv- und Fettschrift):
-
----
-
 # **Projekt-Dokumentation**
 
 ## **Software-Architektur**
@@ -239,3 +235,9 @@ Sie erlaubt spezifische HTTP-Methoden und Header für Anfragen von bestimmten Ur
    - Der Client kann dieses Token für **zukünftige Anfragen** verwenden  
 
 ---
+
+## Informationen
+Vielleicht fragen Sie sich, warum zwei identische Tabellen benötigt werden.
+Die Antwort ist einfach: Es handelt sich um eine Anforderung unserer Partnerfirma.
+Wir sind bewusst, dass es eine elegantere Lösung geben könnte. Bei weiteren Fragen können
+Sie sich gerne jederzeit bei uns melden. 
