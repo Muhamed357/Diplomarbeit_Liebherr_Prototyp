@@ -145,6 +145,13 @@ Die `SerialNumberPage`-Komponente ermöglicht das **Scannen oder Eingeben einer 
 
 ## Backend
 
+## API Dokumentation
+- http://localhost:8080/v3/api-docs
+- Swagger-UI: http://localhost:8080/swagger-ui/index.html 
+    - Falls die Dokumentation nicht geladen wird, gebe /v3/api-docs im Suchfeld ein.
+
+---
+
 Das **Backend** ist in verschiedene **Pakete** unterteilt, um eine **klare Struktur** und **Trennung der Verantwortlichkeiten** zu gewährleisten.  
 
 ### config
