@@ -11,7 +11,7 @@ Hier ist eine Übersicht der Architektur der Anwendung:
 ## Demo-Video
 Hier ist ein kurzes Demo-Video zur Anwendung:
 
-![Demo](images/Demo.gif)
+![Demo](images/Demo.mp4)
 
 
 ---
