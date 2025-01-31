@@ -2,8 +2,19 @@
 
 ## Software-Architektur
 Hier ist eine Übersicht der Architektur der Anwendung:
+
 ![Software-Architektur](images/software_architektur.jpg)
 
+
+---
+
+## Demo-Video
+Hier ist ein kurzes Demo-Video zur Anwendung:
+
+![Demo](images/Demo.gif)
+
+
+---
 
 ## Frontend
 
@@ -171,12 +182,5 @@ Die Klasse `JwtAuthFilter` ist für die **JWT-Authentifizierung** zuständig.
 - **UserAuthenticationEntryPoint** → Handhabt nicht-authentifizierte Anfragen  
 - **UserAuthenticationProvider** → Erstellt & validiert JWTs  
 - **WebConfig** → Konfiguriert CORS-Richtlinien  
-
----
-
-## Fazit
-Diese Dokumentation beschreibt den **gesamten Aufbau der Anwendung**.  
-- **Frontend**: Benutzeroberfläche, Login/Registrierung, Dateneingabe  
-- **Backend**: Sicherheitskonzepte, Authentifizierung, Konfiguration  
 
 ---
